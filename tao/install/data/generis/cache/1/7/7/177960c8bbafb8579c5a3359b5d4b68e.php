@@ -1,0 +1,1 @@
+<?php return array('and' => 'a','%d day' => '%d den','%d days' => '%d dnů','%h hour' => '%h hodin','%h hours' => '%h hodin','%i minute' => '%i minuta','%i minutes' => '%i minut','%m month' => '%m měsíc','%m months' => '%m měsíců','%s (%s kb)' => '%s (%s kb)');

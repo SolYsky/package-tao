@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentTest xmlns="http://www.imsglobal.org/xsd/imsqti_v2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="Test-1" title="QTI Example Test" toolName="tao" toolVersion="2.7" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p1 http://www.imsglobal.org/xsd/qti/qtiv2p1/imsqti_v2p1.xsd">
+  <timeLimits maxTime="7810" allowLateSubmission="false"/>
+  <testPart identifier="Introduction" navigationMode="nonlinear" submissionMode="individual">
+    <itemSessionControl maxAttempts="0" showFeedback="false" allowReview="true" showSolution="false" allowComment="false" allowSkipping="true" validateResponses="false"/>
+    <assessmentSection identifier="assessmentSection-1" required="true" fixed="false" title="Section 1" visible="true" keepTogether="true">
+      <itemSessionControl maxAttempts="1" showFeedback="false" allowReview="true" showSolution="false" allowComment="true" allowSkipping="true" validateResponses="false"/>
+      <assessmentItemRef identifier="item-1" required="false" fixed="false" href="http://localhost/TAO.rdf#i1660315102487814"/>
+    </assessmentSection>
+  </testPart>
+  <testPart identifier="QTIExamples" navigationMode="linear" submissionMode="individual">
+    <assessmentSection identifier="assessmentSection-2" required="false" fixed="false" title="Section 1" visible="false" keepTogether="true">
+      <assessmentItemRef identifier="item-2" required="false" fixed="false" href="http://localhost/TAO.rdf#i1660315103868315"/>
+      <assessmentItemRef identifier="item-3" required="false" fixed="false" href="http://localhost/TAO.rdf#i1660315103878216"/>
+      <assessmentItemRef identifier="item-4" required="false" fixed="false" href="http://localhost/TAO.rdf#i1660315104786217"/>
+      <assessmentItemRef identifier="item-5" required="false" fixed="false" href="http://localhost/TAO.rdf#i1660315104296618"/>
+      <assessmentItemRef identifier="item-6" required="false" fixed="false" href="http://localhost/TAO.rdf#i1660315105124219"/>
+      <assessmentItemRef identifier="item-7" required="false" fixed="false" href="http://localhost/TAO.rdf#i1660315105731420"/>
+      <assessmentItemRef identifier="item-8" required="false" fixed="false" href="http://localhost/TAO.rdf#i1660315105284521"/>
+      <assessmentItemRef identifier="item-9" required="false" fixed="false" href="http://localhost/TAO.rdf#i1660315106228522"/>
+    </assessmentSection>
+  </testPart>
+</assessmentTest>

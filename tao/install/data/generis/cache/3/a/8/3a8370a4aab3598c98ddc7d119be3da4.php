@@ -1,0 +1,1 @@
+<?php return array('Actions' => 'فعالیت‌ها','Available roles' => 'نقش‌های موجود','Grant access rights to the action' => 'سطوح دسترسی را به فعالیت مورد نظر اعمال کنید.','Grant access rights to the entire controller' => 'سطوح دسترسی را به تمام کنترلر اعمال کنید');
